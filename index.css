@@ -1,0 +1,98 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #0070c0;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+/* Navegação */
+nav {
+  background-color: #005a9c;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: bold;
+  font-size: 1em;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ffdd00;
+}
+
+/* Conteúdo principal */
+main {
+  padding: 40px 20px;
+}
+
+.produto {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.produto h2 {
+  color: #0070c0;
+  margin-bottom: 20px;
+}
+
+.produto img {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.produto p {
+  font-size: 1.1em;
+  margin: 10px 0;
+}
+
+.produto ul {
+  list-style-type: disc;
+  text-align: left;
+  max-width: 500px;
+  margin: 20px auto;
+  padding-left: 20px;
+}
+
+/* Rodapé */
+footer {
+  background-color: #222;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
