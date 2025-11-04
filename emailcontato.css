@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f5f6fa;
+  color: #333;
+}
+
+header {
+  background-color: #0078d7;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  height: calc(100vh - 70px);
+}
+
+/* Lista de emails */
+.email-list {
+  width: 30%;
+  background-color: #fff;
+  border-right: 1px solid #ccc;
+  overflow-y: auto;
+}
+
+.email-list h2 {
+  padding: 1rem;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ccc;
+}
+
+.email-list ul {
+  list-style: none;
+}
+
+.email-item {
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.email-item:hover {
+  background-color: #f9f9f9;
+}
+
+.email-item.active {
+  background-color: #e7f1ff;
+  border-left: 4px solid #0078d7;
+}
+
+.email-item h3 {
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.email-item p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.email-item span {
+  font-size: 0.8rem;
+  color: #999;
+  float: right;
+}
+
+/* Conteúdo do email */
+.email-content {
+  flex: 1;
+  background-color: #fff;
+  padding: 2rem;
+  overflow-y: auto;
+}
+
+.email-content h2 {
+  margin-bottom: 0.5rem;
+}
+
+.email-content hr {
+  margin: 1rem 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
